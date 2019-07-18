@@ -1,3 +1,9 @@
 // Variables
-$color-text-primary: #ffffff;
-$color-text-secondary: #000000;
+$white: #ffffff; 
+$black: #000000;
+
+
+
+$color-text-primary: $white;
+$color-text-secondary: $black;
+$color-caption: lighten($black, 14%);

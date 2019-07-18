@@ -11,14 +11,15 @@ ul {
   ul li {
     display: inline-block;
     margin-left: 5%; }
+    @media (max-width: 768px) {
+      ul li {
+        display: block; } }
 
-footer ul {
-  list-style-type: none; }
-  footer ul li {
-    display: inline-block;
-    text-align: center; }
-    footer ul li a {
-      margin-left: 20px; }
+a {
+  color: #ffffff;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase; }
 
 footer i {
   font-size: 22px;
@@ -29,7 +30,11 @@ footer i {
   color: #ffffff;
   border: 3px solid #ffffff;
   border-radius: 50%;
-  padding: 4px; }
+  padding: 4px;
+  text-align: center; }
+
+footer li {
+  display: inline-block; }
 
 footer p {
   color: #555555;
@@ -39,6 +44,10 @@ footer p {
   line-height: 22px;
   padding: 10px;
   letter-spacing: .5px; }
+
+footer .social-media {
+  margin: 0  auto;
+  margin-top: 20px; }
 
 footer .fa-twitter:hover {
   background-color: #00aced; }
@@ -51,4 +60,144 @@ footer .fa-pinterest:hover {
 
 footer .fa-google-plus-g:hover {
   background-color: #da2713; }
+
+.tint {
+  background-color: #000000;
+  opacity: 0.5;
+  height: 100vh; }
+
+.container .logo {
+  padding-top: 4%;
+  padding-left: 8%; }
+
+.container .menu {
+  padding-top: 3%; }
+
+.services {
+  text-align: center; }
+  .services h3 {
+    color: #242424;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 75px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 0; }
+  .services .paragraph-services {
+    margin: 0 0 100px 0; }
+  .services .card-image i {
+    font-size: 39px;
+    width: 68px;
+    height: 68px;
+    line-height: 68px;
+    border: 3px solid #fed136;
+    background-color: #ffffff;
+    border-radius: 50%;
+    color: #fed136; }
+  .services h5 {
+    color: #242424;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 75px;
+    letter-spacing: 1px; }
+  .services .paragraph-card {
+    color: #777777;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 400; }
+
+.portfolio {
+  text-align: center;
+  background-color: #f7f7f7; }
+  .portfolio .card {
+    background-color: #ffffff; }
+    .portfolio .card img {
+      width: 100%; }
+  .portfolio h3 {
+    color: #242424;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 75px;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    margin-bottom: 0; }
+  .portfolio .paragraph-services {
+    margin: 0 0 100px 0; }
+  .portfolio h5 {
+    color: #242424;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 0px; }
+  .portfolio .paragraph-card {
+    color: #777777;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 40px;
+    padding-bottom: 20px; }
+
+@media (max-width: 768px) {
+  .splash-inner {
+    transform: translateY(30%); }
+    .splash-inner h3 {
+      font-size: 20px; }
+    .splash-inner h1 {
+      font-size: 36px; } }
+
+@media (max-width: 576px) {
+  .splash-inner {
+    transform: translateY(30%); }
+    .splash-inner h3 {
+      font-size: 10px; }
+    .splash-inner h1 {
+      font-size: 18px; } }
+
+.button {
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 1.8px;
+  width: 240px;
+  height: 65px;
+  background-color: #cd9f01;
+  padding: 20px 40px;
+  border-radius: 5px;
+  text-shadow: 1px 1px 2px #000000; }
+
+.splash {
+  background-image: url("../images/Background_Image.png");
+  background-size: cover;
+  background-position: center center;
+  color: #ffffff;
+  height: 100vh; }
+  .splash a {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 41px; }
+
+.splash-inner {
+  margin: auto;
+  text-align: center;
+  transform: translateY(50%); }
+  .splash-inner h3 {
+    font-family: 'Merriweather', serif;
+    font-size: 40px;
+    font-style: italic; }
+  .splash-inner h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 75px;
+    font-weight: 700;
+    text-transform: uppercase; }
+  @media (max-width: 768px) {
+    .splash-inner {
+      transform: translateY(30%); }
+      .splash-inner h3 {
+        font-size: 20px; }
+      .splash-inner h1 {
+        font-size: 36px; } }
 /*# sourceMappingURL=main.css.map */

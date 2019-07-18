@@ -1,0 +1,114 @@
+.tint {
+  background-color: $color-text-secondary;
+  opacity: 0.5;
+  height: 100vh;
+}
+
+.container {
+  .logo {
+    padding-top: 4%;
+    padding-left: 8%;
+  }
+
+  .menu {
+    padding-top: 3%;
+  }
+}
+
+//Sectiion Services
+
+.services {
+  text-align: center;
+
+  h3 {
+    color: $color-caption;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 75px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 0;
+  }
+
+  .paragraph-services {
+    margin: 0 0 100px 0;
+  }
+
+  .card-image {
+    i {
+      font-size: 39px;
+      width: 68px;
+      height: 68px;
+      line-height: 68px;
+      border: 3px solid #fed136;
+      background-color: $color-text-primary;
+      border-radius: 50%;
+      color: #fed136;
+    }
+  }
+
+  h5 {
+    color: $color-caption;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 75px;
+    letter-spacing: 1px;
+    ;
+  }
+
+  .paragraph-card {
+    @include card();
+  }
+}
+
+//  Section Portfolio
+.portfolio {
+  text-align: center;
+  background-color: #f7f7f7;
+
+  .card {
+    background-color: $color-text-primary;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  h3 {
+    color: $color-caption;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 75px;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    margin-bottom: 0;
+  }
+
+  .paragraph-services {
+    margin: 0 0 100px 0;
+  }
+
+  h5 {
+    color: $color-caption;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 0px;
+  }
+
+  .paragraph-card {
+    @include card();
+    margin-top: 0;
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+  }
+}
+
+
+
+
+  

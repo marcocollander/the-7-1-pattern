@@ -1,19 +1,4 @@
 footer {
-  ul {
-    list-style-type: none;
-
-    li {
-      display: inline-block;
-      text-align: center;
-
-      a {
-        margin-left: 20px;
-
-      }
-
-    }
-  }
-
   i {
     font-size: 22px;
     background: #222222;
@@ -24,6 +9,11 @@ footer {
     border: 3px solid #ffffff;
     border-radius: 50%;
     padding: 4px;
+    text-align: center;
+  }
+  
+  li {
+    display: inline-block;
   }
 
   p {
@@ -35,7 +25,11 @@ footer {
     padding: 10px;
     letter-spacing: .5px;
   }
-
+  .social-media {
+    margin: 0  auto;
+    margin-top: 20px;
+  }
+  
   .fa-twitter:hover {
     background-color: #00aced;
   }

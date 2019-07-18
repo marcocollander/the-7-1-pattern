@@ -1,0 +1,14 @@
+
+.splash {
+  background-image: url('../images/Background_Image.png');
+  background-size: cover;
+  background-position: center center;
+  color: $color-text-primary;
+  height: 100vh;
+
+  a {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 41px;
+  }
+}

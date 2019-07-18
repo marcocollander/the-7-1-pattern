@@ -1,0 +1,11 @@
+@mixin card() {
+  color: #777777;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+@mixin box($margin, $padding) {
+  margin: $margin;
+  padding: $padding;
+}
