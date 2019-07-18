@@ -1,0 +1,55 @@
+footer {
+  ul {
+    list-style-type: none;
+
+    li {
+      display: inline-block;
+      text-align: center;
+
+      a {
+        margin-left: 20px;
+
+      }
+
+    }
+  }
+
+  i {
+    font-size: 22px;
+    background: #222222;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    color: #ffffff;
+    border: 3px solid #ffffff;
+    border-radius: 50%;
+    padding: 4px;
+  }
+
+  p {
+    color: #555555;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    padding: 10px;
+    letter-spacing: .5px;
+  }
+
+  .fa-twitter:hover {
+    background-color: #00aced;
+  }
+
+  .fa-facebook-f:hover {
+    background-color: #3b5998;
+  }
+
+  .fa-pinterest:hover {
+    background-color: #cb2028;
+    ;
+  }
+
+  .fa-google-plus-g:hover {
+    background-color: #da2713;
+  }
+}

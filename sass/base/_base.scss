@@ -1,0 +1,25 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+// Basic style for links
+ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  color: $color-text-primary;
+
+  li {
+    display: inline-block;
+    margin-left: 5%;
+  }
+}
+
+a {
+  color: $color-text-primary;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+}
